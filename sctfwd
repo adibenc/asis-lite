@@ -1,0 +1,9 @@
+echo 'firewall-cmd --add-port=8000/tcp --zone=public --permanent' > rule
+firewall-cmd
+firewall-cmd --add-port=8000/tcp --zone=public --permanent
+firewall-cmd --add-service=squid
+firewall-cmd --list-all
+firewall-cmd --reload
+systemctl enable firewalld
+systemctl restart firewalld
+systemctl start firewalld
