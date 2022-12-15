@@ -12,4 +12,5 @@ __basedir=$HOME/asis-lite
 alias dev="xBook $__basedir/sctdev"
 alias dcd="xBook $__basedir/sctdcd"
 alias ddo="xBook $__basedir/sctddo"
+alias dfwd="xBook $__basedir/sctfwd"
 alias reinit="source $__basedir/main.sh"
