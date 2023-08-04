@@ -5,7 +5,7 @@ function xBook(){
 	cmd1=`cat $1 | head -n $in1 | tail -n 1`
 	echo $in1" - "$cmd1
 	# $(cat $1 | head -n $in1 | tail -n 1)
-	echo $1 >> $HOME/.bash_history
+	echo $cmd1 >> $HOME/.bash_history
 	$cmd1
 }
 
