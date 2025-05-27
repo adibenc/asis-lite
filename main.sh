@@ -11,6 +11,7 @@ function xBook(){
 
 __basedir=$HOME/asis-lite
 source $__basedir/env.sh
+source $__basedir/fns.sh
 alias dev="xBook $__basedir/sctdev"
 alias dcd="xBook $__basedir/sctdcd"
 alias ddo="xBook $__basedir/sctddo"

@@ -3,7 +3,7 @@
 # https://semver.org/
 
 # @adibenc
-# simple semver by var & git log
+# simple semver gen by var & git log
 
 major=0 # major release increment
 minor=5 # number of main features / modules
